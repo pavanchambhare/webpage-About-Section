@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	position: absolute;
+}
+.box {
+	background-color: rebeccapurple;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	animation-name: bounce;
+	animation-duration: 0.7s;
+}
+@keyframes bounce {
+	0% {
+		transform: bounce(0);
+	}
+	100% {
+		transform: bounce(50%);
+	}
+}
